@@ -76,6 +76,19 @@ footer{background:var(--text-1);padding:2.5rem 2rem;text-align:center;border-top
 .foot-tag{font-size:0.82rem;color:rgba(255,255,255,0.3);font-style:italic}
 @media(max-width:900px){.mission-tiles{grid-template-columns:1fr 1fr}}
 @media(max-width:768px){nav{padding:1rem 1.4rem}nav.scrolled{padding:0.7rem 1.4rem}.nav-links{display:none}.hamburger{display:flex}.container{padding:0 1.4rem}section{padding:4rem 0}.page-hero-inner{padding:0 1.4rem}.mission-tiles{grid-template-columns:1fr}.pull-quote{padding:1.4rem 1.4rem}}
+@media(max-width:900px){.mission-tiles{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){nav{padding:1rem 1.4rem}nav.scrolled{padding:0.7rem 1.4rem}.nav-links{display:none}.hamburger{display:flex}.container{padding:0 1.4rem}section{padding:4rem 0}.page-hero-inner{padding:0 1.4rem}.mission-tiles{grid-template-columns:1fr}.pull-quote{padding:1.4rem 1.4rem}}
+
+/* Force instant reaction and fix hover delay on mission tiles */
+.mission-tile.reveal {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1) !important;
+  transition-delay: 0ms !important;
+}
+.mission-tile.reveal.in:hover {
+  transform: translateY(-6px) scale(1.015) !important;
+  border-color: var(--accent-blue) !important;
+  box-shadow: 0 12px 30px rgba(30,80,160,0.12) !important;
+}
 </style>
 </head>
 <body>
