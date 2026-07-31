@@ -97,6 +97,12 @@ footer{background:var(--text-1);padding:2.5rem 2rem;text-align:center;border-top
 .reveal-top{opacity:0;transform:translateY(-24px);transition:opacity 0.7s ease,transform 0.7s ease}
 .reveal-top.in{opacity:1;transform:none}
 @media(max-width:768px){.cards-grid{grid-template-columns:1fr}.container{padding:0 1.4rem}section{padding:4rem 0}.page-hero-inner{padding:0 1.4rem}}
+/* Override reveal-top transform lock for hover state */
+div.pcard.reveal-top.in:hover {
+  transform: translateY(-6px) scale(1.015);
+  border-color: var(--accent-blue);
+  box-shadow: 0 12px 30px rgba(30,80,160,0.12);
+}
 </style>
 </head>
 <body>
