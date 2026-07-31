@@ -78,8 +78,8 @@ footer{background:var(--text-1);padding:2.5rem 2rem;text-align:center;border-top
 .about-grid{display:grid;grid-template-columns:1fr 360px;gap:5rem;align-items:start}
 .about-intro{font-size:1.05rem;color:var(--text-2);line-height:1.85;margin-bottom:2.8rem;font-weight:400}
 .about-blocks{display:flex;flex-direction:column;gap:1.4rem}
-.about-block{display:flex;gap:1.1rem;align-items:flex-start;padding:1.4rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);transition:border-color 0.25s,box-shadow 0.25s;box-shadow:0 1px 4px rgba(0,0,0,0.05)}
-.about-block:hover{border-color:var(--accent-blue);box-shadow:0 4px 20px rgba(30,80,160,0.1)}
+.about-block{display:flex;gap:1.1rem;align-items:flex-start;padding:1.4rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);transition:all 0.4s cubic-bezier(0.25, 1, 0.5, 1);box-shadow:0 1px 4px rgba(0,0,0,0.05);transform: translateY(0) scale(1);}
+.about-block:hover{border-color:var(--accent-blue);box-shadow:0 12px 30px rgba(30,80,160,0.12);transform: translateY(-6px) scale(1.015);}
 .about-block-icon{font-size:1.4rem;flex-shrink:0;margin-top:0.1rem}
 .about-block-title{font-size:1rem;font-weight:700;color:var(--text-1);letter-spacing:-0.01em;margin-bottom:0.4rem}
 .about-block p{font-size:0.85rem;color:var(--text-2);line-height:1.7}
