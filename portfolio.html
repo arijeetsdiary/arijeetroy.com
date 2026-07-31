@@ -77,8 +77,8 @@ footer{background:var(--text-1);padding:2.5rem 2rem;text-align:center;border-top
 @media(max-width:768px){nav{padding:1rem 1.4rem}nav.scrolled{padding:0.7rem 1.4rem}.nav-links{display:none}.hamburger{display:flex}.container{padding:0 1.4rem}section{padding:4rem 0}.page-hero-inner{padding:0 1.4rem}}
 .portfolio-sub{font-size:0.96rem;color:var(--text-2);font-style:italic;margin-top:-1.5rem;margin-bottom:3rem}
 .cards-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem}
-.pcard{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform 0.3s,border-color 0.3s,box-shadow 0.3s;position:relative;box-shadow:0 1px 4px rgba(0,0,0,0.05)}
-.pcard:hover{transform:translateY(-5px);border-color:var(--accent-blue);box-shadow:0 12px 40px rgba(30,80,160,0.14)}
+.pcard{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:all 0.4s cubic-bezier(0.25, 1, 0.5, 1);position:relative;box-shadow:0 1px 4px rgba(0,0,0,0.05);transform: translateY(0) scale(1);}
+.pcard:hover{transform:translateY(-6px) scale(1.015);border-color:var(--accent-blue);box-shadow:0 12px 30px rgba(30,80,160,0.12)}
 .pcard::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent-blue),var(--accent-teal))}
 .pcard-img{width:100%;height:185px;object-fit:cover;display:block;border-bottom:1px solid var(--border);filter:grayscale(15%) brightness(0.95);transition:filter 0.4s ease}
 .pcard:hover .pcard-img{filter:grayscale(0%) brightness(1)}
