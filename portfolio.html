@@ -94,9 +94,29 @@ footer{background:var(--text-1);padding:2.5rem 2rem;text-align:center;border-top
 .pcard-body ul li::before{content:'›';position:absolute;left:0;color:var(--accent-teal);font-weight:700}
 .pcard-tags{padding:0 1.4rem 1.4rem;display:flex;flex-wrap:wrap;gap:0.35rem}
 .tag{font-family:var(--font-m);font-size:0.6rem;letter-spacing:0.06em;color:var(--accent-blue);border:1px solid rgba(30,80,160,0.2);background:var(--accent-blue-dim);padding:0.18rem 0.48rem;border-radius:3px}
-.reveal-top{opacity:0;transform:translateY(-24px);transition:opacity 0.7s ease,transform 0.7s ease}
-.reveal-top.in{opacity:1;transform:none}
+.reveal-top {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal-top.in {
+  opacity: 1;
+  transform: none;
+}
 @media(max-width:768px){.cards-grid{grid-template-columns:1fr}.container{padding:0 1.4rem}section{padding:4rem 0}.page-hero-inner{padding:0 1.4rem}}
+
+/* Match the Mission page's project-tile hover animation */
+.pcard.reveal-top {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1) !important;
+  transition-delay: 0ms !important;
+}
+
+.pcard.reveal-top.in:hover {
+  transform: translateY(-6px) scale(1.015) !important;
+  border-color: var(--accent-blue) !important;
+  box-shadow: 0 12px 30px rgba(30,80,160,0.12) !important;
+}
+
 </style>
 </head>
 <body>
@@ -171,9 +191,25 @@ SITE_DATA.projects.forEach(p=>{
   grid.appendChild(card);
 });
 
-// Animate cards on scroll
-const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}});},{threshold:0.08});
-setTimeout(()=>{document.querySelectorAll('.reveal-top').forEach((el,i)=>{el.style.transitionDelay=(i*90)+'ms';obs.observe(el);});},80);
+
+/* Animate every project card as it enters the viewport */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+
+setTimeout(() => {
+  document.querySelectorAll('.pcard.reveal-top').forEach((el, i) => {
+    /* Alternate a small delay between the two grid columns */
+    el.style.transitionDelay = (i % 2 * 120) + 'ms';
+    obs.observe(el);
+  });
+}, 80);
+
 </script>
 </body>
 </html>
