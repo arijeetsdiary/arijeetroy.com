@@ -12,6 +12,17 @@ const SITE_DATA = {
   // image paths are relative to repo root: assets/images/filename.jpg
   // ----------------------------------------------------------------
   projects: [
+     {
+      id: "cement",
+      badge: "Macquarie University · Honours Thesis",
+      date: "Oct 2024 – Present",
+      title: "Reef Credit Eco-Market",
+      image: "",
+      bullets: [
+        "Assisted in accredited projects like Algae Biostimulant and Fertiliser Efficiency initiatives - run with sugarcane growers in the Great Barrier Reef catchment. The projects work by reducing urea use through biostimulants, which cuts dissolved inorganic nitrogen (DIN) runoff into reef waterways",
+      ],
+      tags: ["Biostimulant", "Fertiliser supplement",]
+    },
     {
       id: "cement",
       badge: "Macquarie University · Honours Thesis",
