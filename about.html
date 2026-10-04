@@ -88,6 +88,20 @@ footer{background:var(--text-1);padding:2.5rem 2rem;text-align:center;border-top
 .about-vis{display:flex;align-items:center;justify-content:center}
 @media(max-width:1080px){.about-grid{grid-template-columns:1fr;gap:2.5rem}.about-vis{display:none}}
 @media(max-width:768px){.container{padding:0 1.4rem}section{padding:4rem 0}.page-hero-inner{padding:0 1.4rem}}
+
+/* Match the Portfolio tile animation */
+.about-block.reveal {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1) !important;
+  transition-delay: 0ms !important;
+}
+
+/* Smooth lift, scale and shadow on hover */
+.about-block.reveal.in:hover {
+  transform: translateY(-6px) scale(1.015) !important;
+  border-color: var(--accent-blue) !important;
+  box-shadow: 0 12px 30px rgba(30,80,160,0.12) !important;
+}
+
 </style>
 </head>
 <body>
@@ -213,6 +227,26 @@ const hbg=document.getElementById('hbg'),mob=document.getElementById('mob-menu')
 hbg.addEventListener('click',()=>{hbg.classList.toggle('open');mob.classList.toggle('open');});
 function closeMob(){hbg.classList.remove('open');mob.classList.remove('open');}
 const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}});},{threshold:0.12});
+
+/* Reveal page elements as they enter the viewport */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+setTimeout(() => {
+  document
+    .querySelectorAll('.reveal, .reveal-left, .reveal-right')
+    .forEach((el, i) => {
+      el.style.transitionDelay = (i % 3 * 100) + 'ms';
+      obs.observe(el);
+    });
+}, 80);
+
 setTimeout(()=>{document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach((el,i)=>{el.style.transitionDelay=(i*110)+'ms';obs.observe(el);});},80);
 </script>
 </body>
