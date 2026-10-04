@@ -15,17 +15,6 @@ const SITE_DATA = {
      {
       id: "cement",
       badge: "Macquarie University · Honours Thesis",
-      date: "Oct 2024 – Present",
-      title: "Reef Credit Eco-Market",
-      image: "",
-      bullets: [
-        "Assisted in accredited projects like Algae Biostimulant and Fertiliser Efficiency initiatives - run with sugarcane growers in the Great Barrier Reef catchment. The projects work by reducing urea use through biostimulants, which cuts dissolved inorganic nitrogen (DIN) runoff into reef waterways",
-      ],
-      tags: ["Biostimulant", "Fertiliser supplement",]
-    },
-    {
-      id: "cement",
-      badge: "Macquarie University · Honours Thesis",
       date: "Feb 2023 – Dec 2023",
       title: "Efficient Low-Carbon Cementitious Systems",
       image: "assets/images/cement-lab.jpg",
@@ -99,19 +88,7 @@ const SITE_DATA = {
   // Fields: title, org, period, location, bullets[]
   // ----------------------------------------------------------------
   experience: [
-    {
-      title: "Graduate Water Infrastructure Engineer",
-      org: "Test Company",
-      period: "Oct 2026 – Present",
-      location: "Perth, WA",
-      bullets: [
-        "Designed and modelled stormwater and water distribution networks across 10+ urban development projects in South East Queensland using Civil 3D and InfoWorks ICM, ensuring full compliance with SEQ Development Code",
-        "Authored technical specifications and preliminary design reports for water and wastewater pump station upgrades, optimizing layout efficiency and reducing estimated capital costs by 12%",
-        "Coordinated multidisciplinary design packages—integrating geotechnical, environmental, and structural inputs—for major municipal water infrastructure programs in the Brisbane region",
-        "Automated routine GIS data processing workflows using Python and Dynamo scripts, reducing manual data formatting time by 25% for the Brisbane water infrastructure team"
-      ]
-    },
-    {
+     {
       title: "Civil Design Engineer",
       org: "Design Development Consultant Australia (DDCA)",
       period: "Aug 2023 – Aug 2024",
