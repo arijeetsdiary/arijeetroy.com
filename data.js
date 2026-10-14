@@ -91,7 +91,7 @@ const SITE_DATA = {
     {
       title: "Graduate Sustainability Project Engineer ",
       org: "OCTES (OCT Emissions Solutions Pty Ltd)",
-      period: "Sept 2026 – Present",
+      period: "Aug 2026 – Present",
       location: "Melbourne, VIC",
       bullets: [
         "Support Reef Credit water-quality projects, applying civil and environmental engineering principles to nutrient management, water quality and catchment-scale nitrogen reduction",
