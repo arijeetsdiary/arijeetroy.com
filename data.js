@@ -88,7 +88,21 @@ const SITE_DATA = {
   // Fields: title, org, period, location, bullets[]
   // ----------------------------------------------------------------
   experience: [
-     {
+    {
+      title: "Graduate Sustainability Project Engineer ",
+      org: "OCTES (OCT Emissions Solutions Pty Ltd)",
+      period: "Sept 2026 – Present",
+      location: "Melbourne, VIC",
+      bullets: [
+        "Support Reef Credit water-quality projects, applying civil and environmental engineering principles to nutrient management, water quality and catchment-scale nitrogen reduction",
+        "Onboard and assess 10 sugarcane farms, reviewing historical farm, fertiliser, spatial and management data to establish project eligibility and engineering baselines",
+        "Develop 7-year baseline datasets and support nitrogen modelling by integrating agricultural, soil, spatial and management data and interpreting model outputs",
+        "Produce GIS farm boundaries and management zones, applying QA/QC and data-integrity principles to support project definition, monitoring and technical assessment",
+        "Prepare audit-ready technical and compliance documentation, applying methodology, risk, quality-assurance and document-control requirements",
+        "Support renewable-energy and offshore wind projects through energy and environmental data analysis, feasibility research and multidisciplinary project assessments",
+      ]
+    }, 
+    {
       title: "Civil Design Engineer",
       org: "Design Development Consultant Australia (DDCA)",
       period: "Aug 2023 – Aug 2024",
