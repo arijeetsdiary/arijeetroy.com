@@ -118,7 +118,7 @@ const SITE_DATA = {
     {
       title: "Product Specialist (CTP)",
       org: "Suncorp Group",
-      period: "Sept 2024 – Present",
+      period: "Sept 2024 – Aug 2024",
       location: "Melbourne, VIC",
       bullets: [
         "Top 10% performer nationally — awarded Suncorp Elevate Award FY26 H1",
