@@ -12,7 +12,37 @@ const SITE_DATA = {
   // image paths are relative to repo root: assets/images/filename.jpg
   // ----------------------------------------------------------------
   projects: [
-     {
+    {
+      id: "Reef Credit",
+      badge: "OCTES · Graduate Sustainability Project Engineer",
+      date: "Aug 2026 – Present",
+      title: "Reef Credit Algae Biostimulant Nutrient Management Project",
+      image: "assets/images/reef_credit.png",
+      bullets: [
+        "Supported delivery of Reef Credit water-quality projects across the Great Barrier Reef catchment, focusing on nutrient management, fertiliser efficiency and reduction of dissolved inorganic nitrogen (DIN) runoff",
+        "Supported onboarding of 10 sugarcane farms, collecting and validating fertiliser records, crop calendars, property plans, spatial data and farm management information",
+        "Developed 7-year baseline datasets integrating agricultural, soil, spatial and management data to support nitrogen modelling and water-quality assessments",
+        "Produced GIS-based farm boundaries and management zones, applying QA/QC and data-integrity principles to support project definition, monitoring and technical assessment",
+        "Prepared technical and compliance documentation, reviewing methodology requirements, modelling outputs and supporting evidence for project assessment",
+      ],
+      tags: ["Water Quality", "Nutrient Management", "GIS Data Analysis", "Sustainability", "Nitrogen Modelling"]
+    },
+    {
+      id: "Offshore Windfarm",
+      badge: "OCTES · Graduate Sustainability Project Engineer",
+      date: "Aug 2026 – Present",
+      title: "Offshore Windfarm Energy Project",
+      image: "assets/images/offshore_windfarm.png",
+      bullets: [
+        "Supported offshore wind project development through technical, environmental and commercial feasibility research",
+        "Analysed energy, emissions and environmental information to support project assessment and development decisions",
+        "Researched regulatory frameworks, environmental considerations and technical requirements relevant to offshore renewable energy development",
+        "Contributed to multidisciplinary project work across engineering, energy, environmental and commercial considerations",
+        "Prepared research, technical summaries and project information to support internal decision-making and stakeholder discussions",
+      ],
+      tags: ["Renewable Energy", "Offshore Wind Feasibility Studies", "Environmental Assessment", "Energy Analysis", "Project Development"]
+    },
+    {
       id: "cement",
       badge: "Macquarie University · Honours Thesis",
       date: "Feb 2023 – Dec 2023",
