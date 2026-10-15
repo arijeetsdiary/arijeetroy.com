@@ -146,17 +146,6 @@ const SITE_DATA = {
       ]
     },
     {
-      title: "Product Specialist (CTP)",
-      org: "Suncorp Group",
-      period: "Sept 2024 – Aug 2024",
-      location: "Melbourne, VIC",
-      bullets: [
-        "Top 10% performer nationally — awarded Suncorp Elevate Award FY26 H1",
-        "Manage 50+ daily customer interactions within CTP insurance regulation",
-        "Use Tableau and Salesforce data to identify process bottlenecks, redesigning workflows to cut handling time by 25%"
-      ]
-    },
-    {
       title: "Team Leader (Secondment)",
       org: "Suncorp Group",
       period: "May 2025 – Nov 2025",
@@ -165,6 +154,17 @@ const SITE_DATA = {
         "Led a 14-member operational team through a workflow change program, managing daily resourcing and mitigating operational risk",
         "Lifted SLA performance by 10% and reached 100% compliance remediation",
         "Delivered capability uplift program achieving 100% process adoption within two weeks — Elevate Award, top 10% nationwide"
+      ]
+    },
+    {
+      title: "Product Specialist (CTP)",
+      org: "Suncorp Group",
+      period: "Sept 2024 – Aug 2026",
+      location: "Melbourne, VIC",
+      bullets: [
+        "Top 10% performer nationally — awarded Suncorp Elevate Award FY26 H1",
+        "Managed 50+ daily customer interactions within CTP insurance regulation",
+        "Used Tableau and Salesforce data to identify process bottlenecks, redesigning workflows to cut handling time by 25%"
       ]
     },
     {
