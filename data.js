@@ -19,11 +19,11 @@ const SITE_DATA = {
       title: "Reef Credit Algae Biostimulant Nutrient Management Project",
       image: "assets/images/reef_credit.png",
       bullets: [
-        "Supported delivery of Reef Credit water-quality projects across the Great Barrier Reef catchment, focusing on nutrient management, fertiliser efficiency and reduction of dissolved inorganic nitrogen (DIN) runoff",
-        "Supported onboarding of 10 sugarcane farms, collecting and validating fertiliser records, crop calendars, property plans, spatial data and farm management information",
-        "Developed 7-year baseline datasets integrating agricultural, soil, spatial and management data to support nitrogen modelling and water-quality assessments",
-        "Produced GIS-based farm boundaries and management zones, applying QA/QC and data-integrity principles to support project definition, monitoring and technical assessment",
-        "Prepared technical and compliance documentation, reviewing methodology requirements, modelling outputs and supporting evidence for project assessment",
+        "Support delivery of Reef Credit water-quality projects across the Great Barrier Reef catchment, focusing on nutrient management, fertiliser efficiency and reduction of dissolved inorganic nitrogen (DIN) runoff",
+        "Support onboarding of 10 sugarcane farms, collecting and validating fertiliser records, crop calendars, property plans, spatial data and farm management information",
+        "Develop 7-year baseline datasets integrating agricultural, soil, spatial and management data to support nitrogen modelling and water-quality assessments",
+        "Produce GIS-based farm boundaries and management zones, applying QA/QC and data-integrity principles to support project definition, monitoring and technical assessment",
+        "Prepare technical and compliance documentation, reviewing methodology requirements, modelling outputs and supporting evidence for project assessment",
       ],
       tags: ["Water Quality", "Nutrient Management", "GIS Data Analysis", "Sustainability", "Nitrogen Modelling"]
     },
@@ -34,11 +34,11 @@ const SITE_DATA = {
       title: "Offshore Windfarm Energy Project",
       image: "assets/images/offshore_windfarm.png",
       bullets: [
-        "Supported offshore wind project development through technical, environmental and commercial feasibility research",
-        "Analysed energy, emissions and environmental information to support project assessment and development decisions",
-        "Researched regulatory frameworks, environmental considerations and technical requirements relevant to offshore renewable energy development",
-        "Contributed to multidisciplinary project work across engineering, energy, environmental and commercial considerations",
-        "Prepared research, technical summaries and project information to support internal decision-making and stakeholder discussions",
+        "Support offshore wind project development through technical, environmental and commercial feasibility research",
+        "Analyse energy, emissions and environmental information to support project assessment and development decisions",
+        "Research regulatory frameworks, environmental considerations and technical requirements relevant to offshore renewable energy development",
+        "Contribute to multidisciplinary project work across engineering, energy, environmental and commercial considerations",
+        "Prepare research, technical summaries and project information to support internal decision-making and stakeholder discussions",
       ],
       tags: ["Renewable Energy", "Offshore Wind Feasibility Studies", "Environmental Assessment", "Energy Analysis", "Project Development"]
     },
