@@ -14,7 +14,7 @@ const SITE_DATA = {
   projects: [
     {
       id: "Reef Credit",
-      badge: "OCTES · Graduate Sustainability Project Engineer",
+      badge: "OCTES · Junior Sustainability Project Engineer",
       date: "Aug 2026 – Present",
       title: "Reef Credit Algae Biostimulant Nutrient Management Project",
       image: "assets/images/reef_credit.png",
@@ -29,7 +29,7 @@ const SITE_DATA = {
     },
     {
       id: "Offshore Windfarm",
-      badge: "OCTES · Graduate Sustainability Project Engineer",
+      badge: "OCTES · Junior Sustainability Project Engineer",
       date: "Aug 2026 – Present",
       title: "Offshore Windfarm Energy Project",
       image: "assets/images/offshore_windfarm.png",
@@ -63,7 +63,7 @@ const SITE_DATA = {
       title: "Telecommunications Infrastructure — Structural Design",
       image: "assets/images/telecom-tower.jpg",
       bullets: [
-        "Delivered DFC and FC structural assessments across 15+ site upgrades from 4G to 5G — Telstra, Optus and Vodafone in NSW, VIC and QLD",
+        "Delivered DFC and FC structural assessments across 15+ site upgrades from 4G to 5G — Telstra, Optus and Vodafone in NSW, VIC, SA and QLD",
         "Modelled structural framing, antenna mounts, RF dishes and 5G equipment in AutoCAD and Civil 3D",
         "Verified structural capacity against AS4100, AS3600 and AS5100 through on-site measurements",
         "Identified recurring datum error, built validation checklist, and cut design turnaround by 20%"
@@ -119,7 +119,7 @@ const SITE_DATA = {
   // ----------------------------------------------------------------
   experience: [
     {
-      title: "Graduate Sustainability Project Engineer ",
+      title: "Junior Sustainability Project Engineer ",
       org: "OCTES (OCT Emissions Solutions Pty Ltd)",
       period: "Aug 2026 – Present",
       location: "Melbourne, VIC",
@@ -178,7 +178,7 @@ const SITE_DATA = {
       ]
     },
     {
-      title: "Undergraduate Researcher",
+      title: "UnderJunior Researcher",
       org: "Macquarie University",
       period: "Feb 2023 – Dec 2023",
       location: "Sydney, NSW",
